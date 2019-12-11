@@ -35,7 +35,7 @@ var stringifyJSON = function(obj) {
   if (typeof obj === 'object') {
     // create empty string object
     var stringObj = '';
-
+  
     // create variable to grab all keys in obj
     var objKeys = Object.keys(obj);
 
@@ -58,3 +58,6 @@ var stringifyJSON = function(obj) {
 
 
 };
+
+
+
